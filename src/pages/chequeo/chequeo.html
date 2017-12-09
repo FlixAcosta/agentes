@@ -2,12 +2,161 @@
 <ion-header>
 
   <ion-navbar color ="primary">
-    <ion-title>chequeo</ion-title>
+    <ion-title>Chequeo</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+  <div>
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-icon name="stopwatch" item-start></ion-icon>
+        <ion-label>Estacionometro #1</ion-label>
+      </ion-item>
+      
+      <ion-item-options side="right">
+          <button ion-button color="secondary"  (tap)="presentToast()">
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+            Libre
+          </button>
+          <button ion-button color="primary">
+            <ion-icon name="checkmark-circle"></ion-icon>
+            Ocupado
+          </button>
+          <button ion-button color="danger" [navPush]="multa">
+            <ion-icon name="alert"></ion-icon>
+              Multa
+          </button>
+      </ion-item-options>  
+    </ion-item-sliding>
+  </ion-list>
+</div>
+<div>
+    <ion-list>
+      <ion-item-sliding>
+        <ion-item>
+          <ion-icon name="stopwatch" item-start></ion-icon>
+          <ion-label>Estacionometro #2</ion-label>
+        </ion-item>
+        
+        <ion-item-options side="right">
+            <button ion-button color="secondary"  (tap)="presentToast()">
+              <ion-icon name="checkmark-circle-outline"></ion-icon>
+              Libre
+            </button>
+            <button ion-button color="primary">
+              <ion-icon name="checkmark-circle"></ion-icon>
+              Ocupado
+            </button>
+            <button ion-button color="danger" [navPush]="multa">
+              <ion-icon name="alert"></ion-icon>
+                Multa
+            </button>
+        </ion-item-options>  
+      </ion-item-sliding>
+    </ion-list>
+  </div>
+  <div>
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-icon name="stopwatch" item-start></ion-icon>
+        <ion-label>Estacionometro #3</ion-label>
+      </ion-item>
+      
+      <ion-item-options side="right">
+          <button ion-button color="secondary"  (tap)="presentToast()">
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+            Libre
+          </button>
+          <button ion-button color="primary">
+            <ion-icon name="checkmark-circle"></ion-icon>
+            Ocupado
+          </button>
+          <button ion-button color="danger" [navPush]="multa">
+            <ion-icon name="alert"></ion-icon>
+              Multa
+          </button>
+      </ion-item-options>  
+    </ion-item-sliding>
+  </ion-list>
+</div>
+<div>
+    <ion-list>
+      <ion-item-sliding>
+        <ion-item>
+          <ion-icon name="stopwatch" item-start></ion-icon>
+          <ion-label>Estacionometro #4</ion-label>
+        </ion-item>
+        
+        <ion-item-options side="right">
+            <button ion-button color="secondary"  (tap)="presentToast()">
+              <ion-icon name="checkmark-circle-outline"></ion-icon>
+              Libre
+            </button>
+            <button ion-button color="primary">
+              <ion-icon name="checkmark-circle"></ion-icon>
+              Ocupado
+            </button>
+            <button ion-button color="danger" [navPush]="multa">
+              <ion-icon name="alert"></ion-icon>
+                Multa
+            </button>
+        </ion-item-options>  
+      </ion-item-sliding>
+    </ion-list>
+  </div>
+  <div>
+      <ion-list>
+        <ion-item-sliding>
+          <ion-item>
+            <ion-icon name="stopwatch" item-start></ion-icon>
+            <ion-label>Estacionometro #5</ion-label>
+          </ion-item>
+          
+          <ion-item-options side="right">
+              <button ion-button color="secondary"  (tap)="presentToast()">
+                <ion-icon name="checkmark-circle-outline"></ion-icon>
+                Libre
+              </button>
+              <button ion-button color="primary">
+                <ion-icon name="checkmark-circle"></ion-icon>
+                Ocupado
+              </button>
+              <button ion-button color="danger" [navPush]="multa">
+                <ion-icon name="alert"></ion-icon>
+                  Multa
+              </button>
+          </ion-item-options>  
+        </ion-item-sliding>
+      </ion-list>
+    </div>
+    <div>
+        <ion-list>
+          <ion-item-sliding>
+            <ion-item>
+              <ion-icon name="stopwatch" item-start></ion-icon>
+              <ion-label>Estacionometro #6</ion-label>
+            </ion-item>
+            
+            <ion-item-options side="right">
+                <button ion-button color="secondary"  (tap)="presentToast()">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+                  Libre
+                </button>
+                <button ion-button color="primary">
+                  <ion-icon name="checkmark-circle"></ion-icon>
+                  Ocupado
+                </button>
+                <button ion-button color="danger" [navPush]="multa">
+                  <ion-icon name="alert"></ion-icon>
+                    Multa
+                </button>
+            </ion-item-options>  
+          </ion-item-sliding>
+        </ion-list>
+      </div>
 </ion-content>

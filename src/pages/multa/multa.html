@@ -7,12 +7,42 @@
 <ion-header>
 
   <ion-navbar color ="primary">
-    <ion-title>multa</ion-title>
+    <ion-title>Multa</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+    <ion-list>
+        
+          <ion-item>
+            <ion-label stacked>Tipo de automovil</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Marca</ion-label>
+              <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Modelo (opcional)</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+        
+          <ion-item>
+            <ion-label stacked>Placas</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+
+          <div padding>
+              <button ion-button block>Adjuntar imagen</button>
+          </div>   
+          <div padding>
+              <button ion-button block (tap) ="presentToast()">Registrar multa</button>
+          </div>        
+          
+        
+        </ion-list>
+
 
 </ion-content>
